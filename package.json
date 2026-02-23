@@ -37,12 +37,12 @@
   },
   "license": "MIT",
   "dependencies": {
-    "three": "^0.182.0"
+    "three": "^0.183.1"
   },
   "devDependencies": {
     "@eslint/js": "^9.39.2",
     "@stylistic/eslint-plugin": "^5.7.1",
-    "@types/three": "^0.182.0",
+    "@types/three": "^0.183.1",
     "css-loader": "^7.1.2",
     "eslint": "^9.39.2",
     "eslint-plugin-es-x": "^9.3.0",
