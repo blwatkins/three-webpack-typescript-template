@@ -53,7 +53,7 @@ The webpack build configuration can be found in `webpack.config.mjs`.
 ### Building the Bundle in Production Mode
 
 ```shell
-npm run build:prod
+npm run build
 ```
 
 `npm run build` will bundle your sketch in production mode using webpack.
@@ -72,7 +72,7 @@ npm run serve:dev
 ### Serving the Production Bundle
 
 ```shell
-npm run dev:prod
+npm run serve
 ```
 
 `npm run serve` will bundle the scene in production mode, start a localhost development server (`127.0.0.1:8080`), and open a new browser window for the `index.html` file bundled with the compiled scene.
