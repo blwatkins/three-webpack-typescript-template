@@ -24,7 +24,7 @@
     "serve": "webpack-dev-server --mode production",
     "build:dev": "webpack --mode development",
     "serve:dev": "webpack-dev-server --mode development",
-    "build:check": "npm run build:dev && && npm run build",
+    "build:check": "npm run build:dev && npm run build",
     "lint:js": "eslint -c eslint.config.js.mjs .",
     "lint:ts": "eslint -c eslint.config.ts.mjs .",
     "lint:all": "npm run lint:js && npm run lint:ts",
