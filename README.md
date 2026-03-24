@@ -1,11 +1,6 @@
 # Three.js TypeScript Template
 
-A template project for using
-[Three.js](https://threejs.org/)
-with
-[TypeScript](https://www.typescriptlang.org/)
-and
-[webpack](https://webpack.js.org/).
+A template project for using [Three.js](https://threejs.org/) with [TypeScript](https://www.typescriptlang.org/) and [webpack](https://webpack.js.org/).
 
 # Getting Started
 
@@ -139,11 +134,11 @@ The favicon.ico of this template was designed by
 You can find the original icon on
 [flaticon.com](https://www.flaticon.com/free-icon/art_1756752?term=art&page=1&position=38&origin=search&related_id=1756752).
 
-# LICENSE
+# License
 
-This project is licensed under the MIT License.
-The full text of the license is included with this source code.
+The source code of this project is licensed under the [MIT License](https://opensource.org/license/mit).
+The full text of the license is included with the package source code.
 
 ----
 
-Copyright &copy; 2025 brittni and the polar bear LLC.
+Copyright &copy; 2024-2026 Brittni Watkins.
