@@ -4,7 +4,7 @@
   "private": true,
   "description": "A template project for using Three.js with TypeScript and webpack.",
   "author": {
-    "name": "brittni watkins",
+    "name": "Brittni Watkins",
     "url": "https://blwatkins.github.io/"
   },
   "homepage": "https://github.com/blwatkins/three-webpack-typescript-template#readme",
