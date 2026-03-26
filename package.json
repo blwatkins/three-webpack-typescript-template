@@ -1,60 +1,53 @@
 {
-  "name": "three-typescript-template",
-  "version": "1.0.0",
-  "description": "A template project for using Three.js with TypeScript and Webpack.",
+  "name": "three-webpack-typescript-template",
+  "license": "MIT",
   "private": true,
-  "scripts": {
-    "build:dev": "webpack --mode development",
-    "build:dev:single-file": "webpack --mode development --config webpack.single-file.config.cjs",
-    "build:prod": "webpack --mode production",
-    "build:prod:single-file": "webpack --mode production --config webpack.single-file.config.cjs",
-    "dev": "webpack-dev-server --mode development",
-    "dev:single-file": "webpack-dev-server --mode development --config webpack.single-file.config.cjs",
-    "dev:prod": "webpack-dev-server --mode production",
-    "dev:prod:single-file": "webpack-dev-server --mode production --config webpack.single-file.config.cjs",
-    "lint:js": "eslint -c eslint.config.js.mjs ./eslint.config.js.mjs ./eslint.config.ts.mjs ./webpack.config.cjs ./webpack.single-file.config.cjs",
-    "lint:ts": "eslint -c eslint.config.ts.mjs ./src",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/blwatkins/three-typescript-template.git"
-  },
-  "keywords": [
-    "algorithmic art",
-    "code art",
-    "generative art",
-    "three",
-    "three.js",
-    "threejs",
-    "three-js",
-    "typescript",
-    "template"
-  ],
+  "description": "A template project for using Three.js with TypeScript and webpack.",
   "author": {
-    "name": "brittni watkins",
+    "name": "Brittni Watkins",
     "url": "https://blwatkins.github.io/"
   },
-  "license": "MIT",
+  "homepage": "https://github.com/blwatkins/three-webpack-typescript-template#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/blwatkins/three-webpack-typescript-template.git"
+  },
+  "bugs": {
+    "url": "https://github.com/blwatkins/three-webpack-typescript-template/issues"
+  },
+  "type": "module",
+  "engines": {
+    "node": "^20.19.0 || ^22.13.0 || >=24"
+  },
+  "scripts": {
+    "build": "webpack --mode production",
+    "serve": "webpack-dev-server --mode production",
+    "build:dev": "webpack --mode development",
+    "serve:dev": "webpack-dev-server --mode development",
+    "build:check": "npm run build:dev && npm run build",
+    "lint:js": "eslint -c eslint.config.js.mjs .",
+    "lint:ts": "eslint -c eslint.config.ts.mjs .",
+    "lint:all": "npm run lint:js && npm run lint:ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
   "dependencies": {
     "three": "^0.183.2"
   },
   "devDependencies": {
-    "@eslint/js": "^9.39.2",
-    "@stylistic/eslint-plugin": "^5.7.1",
+    "@eslint/js": "^10.0.1",
+    "@stylistic/eslint-plugin": "^5.10.0",
     "@types/three": "^0.183.1",
-    "css-loader": "^7.1.2",
-    "eslint": "^9.39.2",
-    "eslint-plugin-es-x": "^9.3.0",
-    "eslint-plugin-n": "^17.23.2",
-    "eslint-plugin-security": "^3.0.1",
+    "css-loader": "^7.1.4",
+    "eslint": "^10.1.0",
+    "eslint-plugin-es-x": "^9.6.0",
+    "globals": "^17.4.0",
     "html-webpack-plugin": "^5.6.6",
-    "mini-css-extract-plugin": "^2.10.0",
+    "mini-css-extract-plugin": "^2.10.2",
     "ts-loader": "^9.5.4",
     "typescript": "^5.9.3",
-    "typescript-eslint": "^8.53.1",
-    "webpack": "^5.104.1",
-    "webpack-cli": "^6.0.1",
+    "typescript-eslint": "^8.57.2",
+    "webpack": "^5.105.4",
+    "webpack-cli": "^7.0.2",
     "webpack-dev-server": "^5.2.3"
   }
 }

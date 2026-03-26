@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2024-2026 Brittni Watkins.
+ * Copyright (c) 2026 Brittni Watkins.
  *
  * Permission is hereby granted, free of charge, to any person obtaining a copy
  * of this software and associated documentation files (the "Software"),
@@ -18,26 +18,4 @@
  * ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
  */
 
-/*
- * To remove borders and scroll bars from the sketch page,
- * and to keep canvas in the center of the browser window at all times.
- */
-
-html, body {
-    margin: 0;
-    padding: 0;
-    border: none;
-}
-
-body {
-    width: 100vw;
-    height: 100vh;
-    display: grid;
-    justify-content: center;
-    align-items: center;
-}
-
-canvas {
-    grid-row: 1;
-    grid-column: 1;
-}
+declare module '*.css';
