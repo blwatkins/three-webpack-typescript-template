@@ -51,15 +51,18 @@ export default {
             inject: 'body',
             favicon: './assets/icon/favicon.ico'
         }),
-        new MiniCssExtractPlugin()
+        new MiniCssExtractPlugin({
+            filename: '[name].[contenthash:6].css',
+            chunkFilename: '[name].[contenthash:6].css'
+        })
     ],
     optimization: {
         emitOnErrors: false
     },
     output: {
         path: path.resolve(__dirname, '_dist'),
-        filename: '[name].[contenthash:8].js',
-        chunkFilename: '[name].[contenthash:8].js',
+        filename: '[name].[contenthash:6].js',
+        chunkFilename: '[name].[contenthash:6].js',
         clean: true
     },
     devServer: {
