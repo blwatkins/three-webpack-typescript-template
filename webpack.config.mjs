@@ -47,7 +47,7 @@ export default {
     },
     plugins: [
         new HtmlWebpackPlugin({
-            title: 'sketches',
+            title: 'Three.js Scene',
             inject: 'body',
             favicon: './assets/icon/favicon.ico'
         }),
