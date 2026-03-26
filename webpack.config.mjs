@@ -67,15 +67,15 @@ export default {
             directory: path.join(__dirname, '_dist')
         },
         client: {
-            overlay: false
+            overlay: true
         },
         compress: true,
         host: '127.0.0.1',
         port: 8080,
-        hot: false,
+        hot: true,
         watchFiles: ['./src/**/*.ts'],
-        liveReload: false,
+        liveReload: true,
         open: true,
-        webSocketServer: false
+        webSocketServer: 'ws'
     }
 };
