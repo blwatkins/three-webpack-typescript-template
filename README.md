@@ -2,6 +2,26 @@
 
 A template project for using [Three.js](https://threejs.org/) with [TypeScript](https://www.typescriptlang.org/) and [webpack](https://webpack.js.org/).
 
+## Table of Contents
+
+- [Getting Started](#getting-started)
+    - [Installation](#installation)
+    - [Linting](#linting)
+        - [Linting TypeScript](#linting-typescript)
+        - [Linting JavaScript](#linting-javascript)
+    - [Building the Bundle](#building-the-bundle)
+        - [Building the Bundle in Development Mode](#building-the-bundle-in-development-mode)
+        - [Building the Bundle in Production Mode](#building-the-bundle-in-production-mode)
+    - [Serving the Bundle](#serving-the-bundle)
+        - [Serving the Development Bundle](#serving-the-development-bundle)
+        - [Serving the Production Bundle](#serving-the-production-bundle)
+- [GitHub Workflows](#github-workflows)
+- [Repository Status Badges](#repository-status-badges)
+- [Attributions](#attributions)
+    - [Favicon](#favicon)
+- [License](#license)
+- [Thank Yous](#thank-yous)
+
 ## Getting Started
 
 Create a new project from this template using the green "Use this template" button above.
@@ -10,7 +30,7 @@ Write the project's source code in the `src/` directory.
 The `src/main.ts` file provided contains a simple Three.js program with a rotating green cube.
 This file will be used as the entry point for webpack.
 
-## Installation
+### Installation
 
 ```shell
 npm install
@@ -18,9 +38,9 @@ npm install
 
 `npm install` will install all the dependencies required to run this project.
 
-## Linting
+### Linting
 
-### Linting TypeScript
+#### Linting TypeScript
 
 ```shell
 npm run lint:ts
@@ -29,7 +49,7 @@ npm run lint:ts
 `npm run lint:ts` will lint the TypeScript source code using ESLint, identifying syntactic and stylistic errors based on a configured set of rules.
 TypeScript linting configurations and rules can be found, edited, and updated in `eslint.config.ts.mjs`.
 
-### Linting JavaScript
+#### Linting JavaScript
 
 ```shell
 npm run lint:js
@@ -38,9 +58,9 @@ npm run lint:js
 `npm run lint:js` will lint the JavaScript configuration files using ESLint, identifying syntactic and stylistic errors based on a configured set of rules.
 JavaScript linting configurations and rules can be found, edited, and updated in `eslint.config.js.mjs`.
 
-## Building the Bundle
+### Building the Bundle
 
-### Building the Bundle in Development Mode
+#### Building the Bundle in Development Mode
 
 ```shell
 npm run build:dev
@@ -50,7 +70,7 @@ npm run build:dev
 This should identify any compiler errors present in your source code.
 The webpack build configuration can be found in `webpack.config.mjs`.
 
-### Building the Bundle in Production Mode
+#### Building the Bundle in Production Mode
 
 ```shell
 npm run build
@@ -59,9 +79,9 @@ npm run build
 `npm run build` will bundle your sketch in production mode using webpack.
 The webpack build configuration can be found in `webpack.config.mjs`.
 
-## Serving the Bundle
+### Serving the Bundle
 
-### Serving the Development Bundle
+#### Serving the Development Bundle
 
 ```shell
 npm run serve:dev
@@ -69,7 +89,7 @@ npm run serve:dev
 
 `npm run serve:dev` will bundle the scene in development mode, start a localhost development server (`127.0.0.1:8080`), and open a new browser window for the `index.html` file bundled with the compiled scene.
 
-### Serving the Production Bundle
+#### Serving the Production Bundle
 
 ```shell
 npm run serve
@@ -81,7 +101,7 @@ npm run serve
 
 This template contains GitHub workflows designed to update project dependencies and scan the code for security vulnerabilities every month.
 
-To learn more about Dependabot configurations, visit the [GitHub Dependabot documentation](https://docs.github.com/en/code-security/dependabot).
+To learn more about Dependabot configurations, visit the [GitHub Dependabot documentation](https://docs.github.com/en/code-security/concepts/supply-chain-security/about-dependabot-alerts).
 
 To learn more about CodeQL configurations, visit the [GitHub CodeQL documentation](https://codeql.github.com/docs/).
 
@@ -105,6 +125,13 @@ This favicon was generated using the following graphics from Twitter Twemoji:
 
 The source code of this project is licensed under the [MIT License](https://opensource.org/license/mit).
 The full text of the license is included with the package source code.
+
+## Thank Yous
+
+A huge thank you to all the open source contributors who have made this project possible by creating and maintaining the libraries and tools used in this template, and to the open source community for fostering collaboration and innovation.
+
+A special thank you to all the educators, mentors, and content creators who have shared their knowledge and expertise in the fields of web development and computer science.
+Thank you for giving me the tools, resources, opportunities, support, and inspiration to learn and grow as a developer.
 
 ----
 
