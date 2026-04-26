@@ -217,6 +217,8 @@ export default defineConfig([
 
             '@typescript-eslint/consistent-type-definitions': ['error', 'interface'],
 
+            '@typescript-eslint/no-dynamic-delete': 'error',
+
             '@typescript-eslint/no-explicit-any': 'error',
 
             '@typescript-eslint/no-extraneous-class': ['error', {
@@ -224,6 +226,8 @@ export default defineConfig([
             }],
 
             '@typescript-eslint/no-inferrable-types': 'off',
+
+            '@typescript-eslint/no-unsafe-member-access': 'error',
 
             '@typescript-eslint/prefer-for-of': 'error',
 
